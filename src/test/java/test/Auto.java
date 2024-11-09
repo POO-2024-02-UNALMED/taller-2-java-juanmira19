@@ -13,10 +13,10 @@ public class Auto {
         int cont = 0;
 
         for(Asiento as : asientos){
-            ++cont;
+            cont++;
         }
         return cont;
-    }
+        }
     
     String verificarIntegridad(){
         for (Asiento as : asientos){
