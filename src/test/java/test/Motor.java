@@ -16,7 +16,7 @@ public class Motor {
                 this.tipo="gasolina";
                 break;
             case "electrico":
-                this.tipo="gasolina";
+                this.tipo="electrico";
                 break;
             default:
                 break;
