@@ -13,7 +13,9 @@ public class Auto {
         int cont = 0;
 
         for(Asiento as : asientos){
-            cont++;
+            if (as instanceof Asiento){
+                ++cont;
+            }
         
         }
         return cont;
